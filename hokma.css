@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.parent img{
+    width: 105px;
+    margin: 20px;
+    margin-left: -60px;
+}
+.parent a{
+    padding: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.parent .child1 button{
+    padding: 10px;
+} 
+.parent .child1 .but1{
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+.parent .child1 .but2:hover{
+    border-radius: 5px;
+    background-color:white;
+    color: rgb(15, 119, 216);
+    border: 2px solid black;
+}
+.parent .child1 .but2{
+    background-color: rgb(15, 119, 216);
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    color: white;
+}
+.parent2{
+    display: block;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+.parent2 h1{
+    font-size: 65px;
+}
+.parent2 span{
+    line-height: 23px;
+}
+.parent2 b{
+    color: blue;
+}
+.parent2 .but3 button{
+    margin-top: 50px;
+    background-color: rgb(15, 119, 216);
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 45px;
+    color: white;
+}
+.parent2 img{
+    width: 520px;
+    height: 540px;
+    margin-left: 700px;
+    margin-top: -450px;
+}
+.parent2 .but3 button:hover{
+    background-color: white;
+    color:  rgb(15, 119, 216) ;
+    border: 2px solid black ;
+}
