@@ -53,7 +53,7 @@ body{
 .parent2 h1{
     font-size: 65px;
 }
-.parent2 span {
+.parent2 span{
     line-height: 23px;
 }
 .parent2 b{
@@ -79,55 +79,53 @@ body{
     color:  rgb(15, 119, 216) ;
     border: 2px solid black ;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 640px) {
     .parent img{
-        width: 65px;
+        width: 100px;
         margin: 0 1%; 
     }
     .parent a{
         padding: 0  7px;
         margin: auto;
-        font-size: 10px;
+        font-size: 17px;
     }
     .parent .child1 button{
         padding: 0;
-        margin: 2%;
+        margin: 5%;
     }
     .parent .child1 .but1{
         text-decoration: underline;
         margin: 5%;
-        font-size: 65%;
+        font-size: 93%;
     }
     .parent .child1 .but2{
         background-color: rgb(15, 119, 216);
         border: none;
         border-radius: 5px;
-        width: 45px;
-        height: 20px;
+        width: 60px;
+        height: 25px;
         color: white;
-        font-size: 55%;
+        font-size: 85%;
     }
     .parent2 h1{
-        font-size: 40px;
+        font-size: 50px;
         margin: 1% auto;
         padding: 1% 0;
     }
-    .parent2 span p{
+    .parent2 span{
        line-height: 20px;
-       margin: 0 8px 10px;
+       margin: 0 ;
     }
     .parent2 .but3 button{
         margin-top: 15px;
         border-radius: 7px;
         width: 100px;
         height: 35px;
-        color: white;
     }
     .parent2 img{
         width: 100%;
         height: auto;
-        margin: 0;
-        padding: 0 3%;
+        margin: 0 auto;
+        padding: 0 5%;
     }
-
 }
