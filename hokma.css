@@ -79,7 +79,7 @@ body{
     color:  rgb(15, 119, 216) ;
     border: 2px solid black ;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 420px) {
     .parent img{
         width: 105px;
         margin: 0 1%; 
