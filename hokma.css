@@ -57,7 +57,7 @@ body{
     line-height: 23px;
 }
 .parent2 b{
-    color: blue;
+    color: rgb(15, 119, 216);
 }
 .parent2 .but3 button{
     margin-top: 50px;
@@ -78,4 +78,56 @@ body{
     background-color: white;
     color:  rgb(15, 119, 216) ;
     border: 2px solid black ;
+}
+@media screen and (max-width: 640px) {
+    .parent img{
+        width: 105px;
+        margin: 0 1%; 
+    }
+    .parent a{
+        padding: 0px 7px;
+        margin: auto;
+        font-size: medium;
+    }
+    .parent .child1 button{
+        padding: 2%;
+        margin: 2%;
+    }
+    .parent .child1 .but1{
+        background: none;
+        border: none;
+        text-decoration: underline;
+        margin: 5%;
+    }
+    .parent .child1 .but2{
+        background-color: rgb(15, 119, 216);
+        border: none;
+        border-radius: 5px;
+        width: 55px;
+        height: 25px;
+        color: white;
+    }
+    .parent2 h1{
+        font-size: 50px;
+        margin: 1% auto;
+        padding: 1% 0;
+    }
+    .parent2 span{
+       margin-top: 10px;
+    line-height: 23px;
+    }
+    .parent2 .but3 button{
+        margin-top: 15px;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+        color: white;
+    }
+    .parent2 img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 5%;
+    }
+
 }
